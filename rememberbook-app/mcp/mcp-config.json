@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "rememberbook": {
+      "command": "node",
+      "args": ["dist/server.js"],
+      "env": {
+        "REMEMBERBOOK_API_URL": "http://localhost:5055"
+      }
+    }
+  }
+}

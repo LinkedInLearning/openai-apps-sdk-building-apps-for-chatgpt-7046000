@@ -1,0 +1,23 @@
+[project]
+name = "rememberbook-backend-server"
+version = "0.1.0"
+description = "Minimal Flask + SQLite API for capturing, archiving, and annotating ideas (a lightweight second brain)."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE" }
+authors = [
+  { name = "mor10" }
+]
+
+dependencies = [
+  "Flask>=2.3,<3.0",
+  "Flask-RESTful>=0.3.10,<0.4.0",
+  "flask-cors>=4.0.0,<5.0.0",
+  "flasgger>=0.9.7,<0.10.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/mor10/rememberbook"
+Repository = "https://github.com/mor10/rememberbook"
+Issues = "https://github.com/mor10/rememberbook/issues"
+Documentation = "https://github.com/mor10/rememberbook#readme"

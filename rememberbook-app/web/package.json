@@ -1,0 +1,50 @@
+{
+  "name": "rememberbook-ui",
+  "version": "1.1.10",
+  "description": "UI components for Remember Book ideas management",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsx ./build-all.mts",
+    "serve": "serve -s ./assets -p 4444 --cors",
+    "dev": "vite --config vite.config.mts",
+    "tsc": "tsc -b",
+    "tsc:app": "tsc -p tsconfig.app.json",
+    "tsc:node": "tsc -p tsconfig.node.json",
+    "bump": "tsx ./scripts/bump-version.mts"
+  },
+  "keywords": [
+    "rememberbook",
+    "ideas",
+    "mcp",
+    "ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "10.4.21",
+    "fast-glob": "^3.3.3",
+    "postcss": "8.5.6",
+    "serve": "^14.2.4",
+    "tailwindcss": "4.1.14",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.1"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "immer": "^10.1.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.545.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
+  }
+}
